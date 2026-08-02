@@ -49,7 +49,7 @@ A daily-tracked, public commitment — no skipped days, no excuses.
 
 **Day 149 / 300** &nbsp;·&nbsp; Started tracking → **Day 300 lands Dec 30, 2026**
 
-`███████████░░░░░░░░░` **49%**
+`███████████░░░░░░░░░` **48%**
 
 </div>
 
@@ -91,6 +91,16 @@ Daily log, notes, and code live in **[300-Days-of-AI-ML](https://github.com/Adna
 <img src="https://img.shields.io/badge/YOLOv8%20%2F%20MediaPipe-00C9A7?style=flat-square&logoColor=white&labelColor=161b22" />
 <img src="https://img.shields.io/badge/GCP%20Associate%20Cloud%20Engineer-00C9A7?style=flat-square&logo=googlecloud&logoColor=white&labelColor=161b22" />
 <img src="https://img.shields.io/badge/CTF%20%C2%B7%20Forensics%20%C2%B7%20OSINT-00C9A7?style=flat-square&logoColor=white&labelColor=161b22" />
+
+</div>
+
+---
+
+## 📈 Coding Activity
+
+<div align="center">
+
+![LeetCode Stats](https://leetcard.jacoblin.cool/adnan966?theme=dark&font=JetBrains%20Mono&ext=contest)
 
 </div>
 
