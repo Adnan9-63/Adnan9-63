@@ -47,7 +47,7 @@ A daily-tracked, public commitment — no skipped days, no excuses.
 
 <div align="center">
 
-**Day 159 / 300** &nbsp;·&nbsp; Started tracking → **Day 300 lands Dec 30, 2026**
+**Day 160 / 300** &nbsp;·&nbsp; Started tracking → **Day 300 lands Dec 30, 2026**
 
 `███████████░░░░░░░░░` **52.33%**
 
