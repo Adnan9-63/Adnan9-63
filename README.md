@@ -32,11 +32,12 @@
 
 I build AI systems and ship real products — I'm not interested in tutorials, I'm interested in things that work in production. I compete in hackathons, grind DSA daily, and I'm on a deliberate 300-day path to becoming a strong AI Engineer.
 
-- 🌾 Currently competing in **Kaggriculture** (Kaggle simulation competition, $50K prize pool) — building an autonomous farming agent
-- 📚 Daily DSA on **LeetCode** + ML problem sets on **deep-ml.com**
-- 🛠️ Building an **AI ATS Resume System** and a **Life Tracker** app (both in progress)
+- 🛡️ Built **[Sentinel](https://github.com/Adnan9-63/Sentinel)** — a fraud-ring detection system with an ML ensemble + schema-bound LLM reasoning layer, for the Razorpay AI Buildathon 2026
+- 🌾 Currently competing in **[Kaggriculture](https://github.com/Adnan9-63/Kaggriculture-agent)** (Kaggle simulation competition, $50K prize pool) — building an autonomous farming agent, actively iterating
+- 📚 Daily DSA on **LeetCode** + ML problem sets tracked in **[deep-ml-journey](https://github.com/Adnan9-63/deep-ml-journey)**
+- 🛠️ Building an **AI ATS Resume System** and a **Memento Mori Life Tracker** (both in progress)
 - 🏆 Won **BYTEHACK 2026**, **RookieCTF 2026**, and **National Youth Festival 2026** — prizes incoming
-- 🎯 Goal: become a strong, product-minded AI Engineer by end of 2026
+- 🎯 Round 1 cleared at **Adobe University Hackathon 2026** — top ~9% of 3,01,082 registered teams
 - 💬 Ask me about ML fundamentals, FastAPI + React builds, or CTF forensics
 
 ---
@@ -47,13 +48,13 @@ A daily-tracked, public commitment — no skipped days, no excuses.
 
 <div align="center">
 
-**Day 187 / 300** &nbsp;·&nbsp; Started tracking → **Day 300 lands Dec 30, 2026**
+**Day 191 / 300** &nbsp;·&nbsp; Started tracking → **Day 300 lands Dec 30, 2026**
 
-`████████████████░░░░░░░░░░░░░░` **62.3%**
+`███████████████████░░░░░░░░░░░` **64%**
 
 </div>
 
-Completed the full unsupervised learning phase — capped by a K-Means/DBSCAN/hierarchical clustering customer segmentation project — and now deep in the Deep Learning (PyTorch) phase, building neural networks from scratch. Daily log, notes, and code live in **[300-Days-of-AI-ML](https://github.com/Adnan9-63/300-Days-of-AI-ML)**.
+My journey from data foundations to machine learning — featuring assignments from Apna College and personal projects. Completed the full unsupervised learning phase, capped by a K-Means/DBSCAN/hierarchical clustering customer segmentation project, and now deep in the Deep Learning (PyTorch) phase, building neural networks from scratch. Daily log, notes, and code live in **[300-Days-of-AI-ML](https://github.com/Adnan9-63/300-Days-of-AI-ML)**.
 
 ---
 
@@ -61,7 +62,7 @@ Completed the full unsupervised learning phase — capped by a K-Means/DBSCAN/hi
 
 | Event | Result | What I built |
 | :---- | :----- | :------------ |
-| **BYTEHACK 2026, BCE Patna** | 🥇 1st Place *(prize incoming)* | **[ClassroomAI Monitor](https://github.com/Pr1nce-Raj/ClassroomAI-Monitor)** — real-time engagement tracking with YOLOv8 + MediaPipe + Whisper + FastAPI + React |
+| **BYTEHACK 2026, BCE Patna** | 🥇 1st Place *(prize incoming)* | **[ClassroomAI Monitor](https://github.com/Adnan9-63/Classroom-Ai-Monitor)** — real-time engagement tracking with YOLOv8 + MediaPipe + Whisper + FastAPI + React |
 | **RookieCTF 2026** (HackerShield, Tatva Club, IIT Patna) | 🥇 1st Place *(prize incoming)* | Crypto / Forensics / OSINT / Web — 3,648 pts |
 | **29th National Youth Festival — Science Mela 2026**, BCE Patna | 🥇 1st, Software Project | **[CampusGigs](https://github.com/Adnan9-63/CampusGigs)** — decentralized student gig economy platform, team DragonDevZ |
 | **Adobe University Hackathon 2026** | 🎯 Round 1 cleared — top ~9% | 26,760 selected out of 3,01,082 registered teams |
@@ -72,11 +73,13 @@ Completed the full unsupervised learning phase — capped by a K-Means/DBSCAN/hi
 
 | Project | What it is |
 | :------ | :--------- |
-| **[ClassroomAI Monitor](https://github.com/Pr1nce-Raj/ClassroomAI-Monitor)** | Real-time classroom engagement AI — YOLOv8 person detection, MediaPipe head-pose & gesture tracking, Whisper transcription, live React dashboard. BYTEHACK 2026 winner. |
+| **[Sentinel](https://github.com/Adnan9-63/Sentinel)** | Coordinated abuse-ring & fraud-spike detector, built for the **Razorpay AI Buildathon 2026** (Track 02: AI Risk Manager). ML ensemble (Isolation Forest + Gradient Boosted Trees) plus graph-based fraud-ring clustering, with a schema-bound LLM reasoning layer (Pydantic-validated output, deterministic fail-safe fallback) that only engages for ambiguous cases — never auto-freezes an account, always routes high-risk cases to human review with a full audit trail. Sentinel's own API is mounted as real, verified MCP tools. Includes a 21-test adversarial suite. Submitted Sept 5, 2026.
+| **[Kaggriculture Agent](https://github.com/Adnan9-63/Kaggriculture-agent)** | Autonomous farming agent for Kaggle's Kaggriculture simulation — competing head-to-head over a 720-turn season, validated against the real competition engine. $50K prize pool. Most actively updated repo right now. |
+| **[ClassroomAI Monitor](https://github.com/Adnan9-63/Classroom-Ai-Monitor)** | Real-time classroom engagement AI — YOLOv8 person detection, MediaPipe head-pose & gesture tracking, Whisper transcription, live React dashboard. BYTEHACK 2026 winner. |
 | **[CampusGigs](https://github.com/Adnan9-63/CampusGigs)** | Decentralized peer-to-peer campus gig economy platform with AI-generated gig descriptions (Gemini prompt engineering) and a simulated UPI wallet. 1st place, Software Project category, National Youth Festival 2026. [Live app](https://campusgigs-dragondevz.netlify.app/) |
 | **[AI ATS Resume System](https://github.com/Adnan9-63/ats-resume-system)** | Hybrid resume-to-JD matcher — TF-IDF/BM25 lexical matching + semantic embeddings + a trained shortlist classifier + LLM feedback layer. FastAPI + React, Dockerized. Actively in development. |
-| **[Kaggriculture Agent](https://github.com/Adnan9-63/Kaggriculture-agent)** | Autonomous farming agent for Kaggle's Kaggriculture simulation — competing head-to-head over a 720-turn season. Validated against the real competition engine. $50K prize pool. |
-| **Life Tracker** | Personal life-tracking PWA (React + Vite + Supabase) — adding auth and a leveling-up system. In active development. |
+| **[Memento Mori Life Tracker](https://github.com/Adnan9-63/life-tracker)** | A premium, offline-first life tracker and daily habit dashboard — React, Tailwind CSS, Vite — featuring a 60-year life grid and full PWA offline capabilities. |
+| **[deep-ml-journey](https://github.com/Adnan9-63/deep-ml-journey)** | Daily deep-ml.com + AI/ML problem-solving practice, documenting the path to AI engineering. |
 
 ---
 
