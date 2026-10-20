@@ -1,10 +1,13 @@
-<!-- ═══════════════════════ HEADER ═══════════════════════ -->
+<!-- ═══════════════════════ NATIVE HEADER (ZERO BROKEN IMAGES) ═══════════════════════ -->
 <div align="center">
 
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=soft&color=0:0d1117,100:161b22&height=165&section=header&text=Md%20Adnan&fontSize=56&fontColor=ffffff&fontAlignY=42&desc=AI%20Systems%20%26%20Security%20Researcher%20%C2%B7%20Autonomous%20Agents%20%C2%B7%20Open-Source%20Builder&descSize=17&descAlignY=68&stroke=00C9A7&strokeWidth=1" alt="Header Banner" />
+  <h1 style="border-bottom: none; margin-bottom: 4px;">Md Adnan</h1>
+  <p>
+    <strong>AI Systems & Security Researcher · Autonomous Agents · Open-Source Builder</strong>
+  </p>
 
   <a href="https://github.com/Adnan9-63">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=3000&pause=1000&color=00C9A7&center=true&vCenter=true&width=740&lines=Researching+Hybrid+ML-LLM+Architectures+%26+Adversarial+Security;Building+Reproducible+AI+Systems+with+Deterministic+Guarantees;Core+Maintainer+%40Buildingcoolstuff+%C2%B7+Open+Source+Connect+India+'26;3x+Hackathon+%26+CTF+Winner+%C2%B7+Top+9%25+Adobe+Hackathon+(300K%2B+Teams)" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=2800&pause=900&color=00C9A7&center=true&vCenter=true&width=760&lines=Researching+Hybrid+ML-LLM+Architectures+%26+Adversarial+Security;Building+Reproducible+AI+Systems+with+Deterministic+Guarantees;Core+Maintainer+%40Buildingcoolstuff+%C2%B7+Open+Source+Connect+India+'26;3x+Hackathon+%26+CTF+Winner+%C2%B7+Top+9%25+Adobe+Hackathon+(300K%2B+Teams)" alt="Typing SVG" />
   </a>
 
   <p align="center">
@@ -19,6 +22,9 @@
     </a>
     <a href="https://leetcode.com/adnan966">
       <img src="https://img.shields.io/badge/LeetCode-adnan966-00C9A7?style=flat-square&logo=leetcode&logoColor=white&labelColor=161b22" alt="LeetCode" />
+    </a>
+    <a href="mailto:muhammad1414114@gmail.com">
+      <img src="https://img.shields.io/badge/Email-Contact-00C9A7?style=flat-square&logo=gmail&logoColor=white&labelColor=161b22" alt="Email" />
     </a>
   </p>
 
@@ -39,24 +45,24 @@ I design and build **verifiable AI systems, autonomous simulation agents, and se
 ## 🧪 Featured Systems & Research Engineering
 
 ### 1. [Sentinel](https://github.com/Adnan9-63/Sentinel) — *Hybrid Graph-ML & Schema-Bound LLM Risk Engine*
-> **Domain:** Graph Anomaly Detection · Adversarial ML · Reliable LLM Systems · MCP Tooling *(Razorpay AI Buildathon 2026)*
-- **Ensemble & Graph Architecture:** Engineered a multi-stage fraud-ring and abuse-spike detector combining an **Isolation Forest + Gradient Boosted Trees** ensemble with **graph-based fraud-ring clustering**.
-- **Deterministic Safety Layer:** Integrated a schema-bound LLM reasoning layer (strict `Pydantic` validation with deterministic fail-safe fallbacks) that engages *exclusively* on high-entropy, ambiguous edge cases—ensuring zero automated account freezes without human-in-the-loop audit trails.
-- **Systems & Verification:** Exposed core risk evaluation pipelines as verified **Model Context Protocol (MCP)** tools and validated robustness against a **21-test adversarial suite**.
+`Isolation Forest` `Gradient Boosted Trees` `Graph Clustering` `Pydantic` `MCP Server` `FastAPI`
+- **Ensemble & Graph Architecture:** Engineered a multi-stage fraud-ring and abuse-spike detector combining an **Isolation Forest + GBDT** ensemble with **graph-based fraud-ring clustering** *(built for Razorpay AI Buildathon 2026)*.
+- **Deterministic Safety Layer:** Integrated a schema-bound LLM reasoning layer (`Pydantic`-validated with deterministic fail-safe fallbacks) that engages *exclusively* on high-entropy, ambiguous edge cases—ensuring zero automated account freezes without human-in-the-loop audit trails.
+- **Systems & Verification:** Exposed core risk evaluation pipelines as verified **Model Context Protocol (MCP)** tools and validated system robustness against a **21-test adversarial suite**.
 
 ### 2. [Kaggriculture Agent](https://github.com/Adnan9-63/Kaggriculture-agent) — *Autonomous Multi-Turn Simulation Agent*
-> **Domain:** Sequential Decision-Making · Heuristic Optimization · Multi-Agent Simulation *(Kaggle $50K Competition)*
-- **Stochastic Policy Design:** Designing an autonomous agent operating over a **720-turn stochastic horizon**, optimizing multi-variable resource allocation, crop yield mechanics, and economic state transitions under uncertainty.
+`Sequential Decision-Making` `Heuristic Optimization` `Multi-Agent Simulation` `Python`
+- **Stochastic Policy Design:** Designing an autonomous agent operating over a **720-turn stochastic horizon** for Kaggle's $50K simulation benchmark, optimizing multi-variable resource allocation, crop yield mechanics, and economic state transitions under uncertainty.
 - **Evaluation & Telemetry Harness:** Built local diagnostic benchmarking harnesses and state-tracking telemetry validated directly against the official competition simulation engine to test policy updates and prevent regression.
 
 ### 3. [Hybrid ATS Resume & Information Retrieval Engine](https://github.com/Adnan9-63/ats-resume-system) — *Lexical + Semantic Ranking Pipeline*
-> **Domain:** Information Retrieval · Dense Embeddings · Supervised Calibration · Containerized Microservices
-- **Two-Stage Ranking Architecture:** Constructed a document-to-query matching pipeline combining sparse lexical retrieval (**TF-IDF / BM25**) with dense **semantic vector embeddings**, feeding into a supervised shortlist classifier and a structured LLM diagnostic layer.
+`BM25 / TF-IDF` `Dense Embeddings` `Supervised Classification` `FastAPI` `React` `Docker`
+- **Two-Stage Ranking Architecture:** Constructed a document-to-query matching pipeline combining sparse lexical retrieval (**TF-IDF / BM25**) with dense **semantic vector embeddings**, feeding into a calibrated shortlist classifier and a structured LLM diagnostic layer.
 - **Reproducible Deployment:** Engineered as an end-to-end containerized microservice using **FastAPI, React, and Docker** for deterministic local and cloud inference.
 
 ### 4. [ClassroomAI Monitor](https://github.com/Adnan9-63/Classroom-Ai-Monitor) — *Real-Time Multimodal Vision & Audio Telemetry*
-> **Domain:** Computer Vision · 3D Pose Estimation · ASR Streaming *(🥇 1st Place Winner, BYTEHACK 2026)*
-- **Multimodal Fusion Pipeline:** Built a low-latency behavioral telemetry system fusing **YOLOv8** multi-person detection, **MediaPipe** 3D head-pose and kinematic gesture tracking, and **OpenAI Whisper** real-time speech transcription over asynchronous **FastAPI + React** streams.
+`YOLOv8` `MediaPipe 3D Pose` `OpenAI Whisper` `FastAPI Streams` `React`
+- **Multimodal Fusion Pipeline:** Built a low-latency behavioral telemetry system *(🥇 1st Place Winner, BYTEHACK 2026)* fusing **YOLOv8** multi-person detection, **MediaPipe** 3D head-pose and kinematic gesture tracking, and **Whisper** real-time speech transcription over asynchronous **FastAPI + React** streams.
 
 ---
 
@@ -111,6 +117,6 @@ Rather than treating libraries as black boxes, I maintain open-source repositori
   <img height="170" src="https://leetcard.jacoblin.cool/adnan966?theme=dark&font=JetBrains%20Mono&ext=contest" alt="LeetCode Stats" />
 </div>
 
-<div align="center">
-  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=Adnan9-63&hide_border=true&bg_color=0d1117&color=00C9A7&line=2C5364&point=ffffff&area=true&area_color=00C9A7" alt="Contribution Graph" />
-</div>
+<p align="center">
+  <sub><em>"Build from first principles. Verify under adversarial conditions. Ship to production."</em></sub>
+</p>
